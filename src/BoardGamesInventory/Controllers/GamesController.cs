@@ -49,7 +49,7 @@ namespace BoardGamesInventory.Controllers
       return View(model: vm);
     }
 
-    // POST: Games/Create
+    POST: Games/Create
     [HttpPost]
     [ValidateAntiForgeryToken]
     public ActionResult Create(GameCreateViewModel vm)
